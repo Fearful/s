@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_header_sections",
+  "info": {
+    "displayName": "Header Section",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "buttonContactLabel": {
+      "type": "string"
+    },
+    "buttonContactLink": {
+      "type": "string"
+    },
+    "logoImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "logoAlt": {
+      "type": "string"
+    }
+  }
+}

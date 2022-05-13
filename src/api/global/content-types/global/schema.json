@@ -4,12 +4,9 @@
   "info": {
     "singularName": "global",
     "pluralName": "globals",
-    "displayName": "Global",
-    "name": "global"
+    "displayName": "Global"
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
     "draftAndPublish": false
   },
   "pluginOptions": {
@@ -18,24 +15,13 @@
     }
   },
   "attributes": {
-    "metadata": {
-      "type": "component",
-      "repeatable": false,
-      "component": "meta.metadata",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "metaTitleSuffix": {
-      "type": "string",
-      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "string"
     },
     "favicon": {
       "allowedTypes": [
@@ -49,35 +35,25 @@
         }
       }
     },
-    "notificationBanner": {
-      "type": "component",
-      "repeatable": false,
-      "component": "elements.notification-banner",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "navbar": {
       "type": "component",
       "repeatable": false,
-      "component": "layout.navbar",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "layout.navbar"
     },
     "footer": {
       "type": "component",
       "repeatable": false,
-      "component": "layout.footer",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "layout.footer"
     }
   }
 }

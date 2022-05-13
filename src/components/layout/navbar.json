@@ -1,19 +1,13 @@
 {
   "collectionName": "components_layout_navbars",
   "info": {
-    "name": "Navbar",
     "displayName": "Navbar",
-    "icon": "map-signs",
-    "description": ""
+    "icon": "archway"
   },
   "options": {},
   "attributes": {
-    "links": {
-      "type": "component",
-      "repeatable": true,
-      "component": "links.link"
-    },
     "button": {
+      "displayName": "Button link",
       "type": "component",
       "repeatable": false,
       "component": "links.button-link"
@@ -23,8 +17,10 @@
         "images"
       ],
       "type": "media",
-      "multiple": false,
-      "required": true
+      "multiple": false
+    },
+    "logoAlt": {
+      "type": "string"
     }
   }
 }

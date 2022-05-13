@@ -1,29 +1,13 @@
 {
-  "collectionName": "components_links_buttons",
+  "collectionName": "components_links_button_links",
   "info": {
-    "name": "Button-link",
     "displayName": "Button link",
-    "icon": "fingerprint",
-    "description": ""
+    "icon": "external-link-square-alt"
   },
   "options": {},
   "attributes": {
-    "url": {
+    "buttonContactLabel": {
       "type": "string"
-    },
-    "newTab": {
-      "type": "boolean",
-      "default": false
-    },
-    "text": {
-      "type": "string"
-    },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "primary",
-        "secondary"
-      ]
     }
   }
 }
